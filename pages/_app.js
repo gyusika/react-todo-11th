@@ -1,6 +1,6 @@
-import React from 'react';
-import App from 'next/app';
-import Head from 'next/head';
+import React from "react";
+import App from "next/app";
+import Head from "next/head";
 
 class PickkApp extends App {
   render() {
@@ -8,7 +8,7 @@ class PickkApp extends App {
     return (
       <>
         <Head>
-          <title>리액트 프로필</title>
+          <title>리액트 Todo</title>
         </Head>
         <Component {...pageProps} />
         <style jsx global>{`

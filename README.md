@@ -1,4 +1,4 @@
-# react-profile-11th
+# react-todo-11th
 
 ## 실행 방법
 

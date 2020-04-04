@@ -1,18 +1,30 @@
-import React from 'react';
+import React from "react";
 
-import ProfileCard from '../components/profile-card';
-import styled from 'styled-components';
+import TodoInput from "../components/todo-input";
+import TodoList from "../components/todo-list";
+
+import styled from "styled-components";
 
 export default function Home() {
   return (
     <Wrapper>
-      나는 홈이야
-      <ProfileCard />
+      <Contents>
+        <TodoInput />
+        <TodoList />
+      </Contents>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
-  background-color: blue;
   height: 100vh;
+`;
+
+const Contents = styled.div`
+  border: solid 1px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 20px 10px;
 `;

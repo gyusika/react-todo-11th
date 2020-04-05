@@ -4,7 +4,7 @@
 
 ```
 npm install
-npm run start
+npm run dev
 ```
 
 - npm install : 필요한 모든 패키지를 설치합니다. 처음 1번만 실행하면 됩니다.
